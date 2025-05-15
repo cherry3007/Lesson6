@@ -1,0 +1,100 @@
+.footer{
+    width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 70px;
+}
+.footer_content {
+    background-image: url("/back2.png"); /* путь от папки public */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 619px; /* добавь! Иначе фон не отобразится */
+}
+.footer_content h1{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center;    
+    color: #FFFFFF;
+    position: relative;
+    top: 150px;
+}
+.footer_content h4{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 150px;
+}
+.play{
+    width: 142px;
+    height: 64px;
+    gap: 10px;
+    padding-top: 18px;
+    padding-right: 31px;
+    padding-bottom: 18px;
+    padding-left: 31px;
+    border-radius: 10px;    
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;    
+    color: #FFFFFF;  
+    border: none;
+    margin-left: 450px;  
+    margin-top: 150px;
+}
+.app{
+    width: 173px;
+    height: 60px;
+    gap: 10px;
+    padding-top: 16px;
+    padding-right: 45px;
+    padding-bottom: 16px;
+    padding-left: 45px;
+    border-radius: 10px;
+    border-width: 1px;    
+    background-color: transparent; /* Прозрачный фон */
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;    
+    color: #FFFFFF;  
+    margin-left: 34px;
+}
+.img{
+    position: relative;
+    left: 300px;
+    bottom: 145px;
+}
+.nav{
+    display: flex;
+}
+.social{
+    width: 170px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 322px;
+}
+.nav p{
+    font-family: "Roboto" , sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-align: right;
+    color: #5C5C5C;   
+    margin: 102px 0 0 286px; 
+}

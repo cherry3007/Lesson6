@@ -10,12 +10,16 @@ const Footer = () => {
         <div className="footer_content">
                     <h1>Download the app now.</h1>
                     <h4>Available on your favorite store. Start your premium experience now</h4>
-                    <button className="play">Playstore</button>
-                    <button className='app'>App store</button>
+                    <button className="playy">Playstore</button>
+                    <button className='appp'>App store</button>
                 </div>
                 <nav className="nav">
                     <img src="./logo.png" alt="" />
-                    <img src="./sociaaal.png" alt=""  className='social'/>
+                    <div className="social">
+                        <img src="./twit.png" alt="" className='social1'/>
+                        <img src="./face.png" alt="" className='social2'/>
+                        <img src="./insta.png" alt="" className='social3'/>
+                        </div>
                     <p>Copywright 2020 Bella Onojie.com</p>
                 </nav>
         </div>

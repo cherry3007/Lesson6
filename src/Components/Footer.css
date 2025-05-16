@@ -34,7 +34,7 @@
     position: relative;
     top: 150px;
 }
-.play{
+.playy{
     width: 142px;
     height: 64px;
     gap: 10px;
@@ -52,8 +52,9 @@
     border: none;
     margin-left: 450px;  
     margin-top: 150px;
+    background: #FA4A0C;
 }
-.app{
+.appp{
     width: 173px;
     height: 60px;
     gap: 10px;
@@ -71,30 +72,43 @@
     letter-spacing: 0.2px;    
     color: #FFFFFF;  
     margin-left: 34px;
+    border: 1px solid #FFFFFF;
 }
 .img{
     position: relative;
     left: 300px;
     bottom: 145px;
 }
-.nav{
+.nav {
     display: flex;
-}
-.social{
-    width: 170px;
-    height: 80px;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 75px;
-    margin-left: 322px;
+    margin-top: 40px;
 }
-.nav p{
-    font-family: "Roboto" , sans-serif;
+
+.nav img {
+    width: 246px;
+    height: auto;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.social img {
+    width: 41px;
+    height: 41px;
+    object-fit: contain;
+}
+
+.nav p {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.1px;
-    text-align: right;
-    color: #5C5C5C;   
-    margin: 102px 0 0 286px; 
+    color: #5C5C5C;
+    margin: 0;
 }
